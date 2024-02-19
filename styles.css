@@ -1,0 +1,97 @@
+body {
+  background-image: url("Images/bg.png");
+  background-attachment: fixed;
+  background-size: cover; /* or contain, etc. */
+  background-position: center; /* or top, bottom, left, right, etc. */
+  /* Other background properties */
+}
+
+.box {
+  background-color: white;
+  border: 5px solid rgb(16, 16, 16);
+  width: 310px;
+
+  cursor: pointer;
+  border-radius: 25px;
+  height: 130px;
+  max-height: 160px;
+}
+.box:hover {
+  border: 5px solid rgba(245, 4, 4, 0.949);
+}
+.pname {
+  border-top: 5px solid rgb(53, 53, 56);
+  min-height: 25px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: Protest Strike;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(3, 3, 3);
+}
+.pim {
+  height: 55px;
+}
+
+.bim {
+  max-width: 880px;
+  height: auto;
+}
+.fs {
+  left: 0;
+  right: 0;
+  border-bottom: 5px solid rgb(0, 0, 0);
+  font-size: 2rem;
+  color: rgb(230, 32, 32);
+  margin-bottom: 200px;
+  font-size: 5rem;
+  font-family: Protest Revolution;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+
+  z-index: 1000;
+}
+.container {
+  margin-bottom: 200px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.pim img {
+  width: 240px;
+  height: 130px;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
